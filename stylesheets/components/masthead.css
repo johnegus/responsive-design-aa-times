@@ -7,6 +7,20 @@
 .masthead__menu-and-search {
     grid-column-start: 1;
     grid-row-start: 1;
+    padding-left: 20px;
+   
+
+}
+.masthead__icon{
+    font-size: 11px;
+    padding: 9px 7px;
+    display: inline-block;
+    align-items: center;
+    
+    
+}
+.masthead__menu-and-search:hover{
+    background-color: #f7f7f5;
 }
 
 .masthead__actions {
