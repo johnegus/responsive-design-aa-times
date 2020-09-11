@@ -8,7 +8,7 @@
     grid-column-start: 1;
     grid-row-start: 1;
     padding-left: 20px;
-   
+
 
 }
 .masthead__icon{
@@ -16,8 +16,8 @@
     padding: 9px 7px;
     display: inline-block;
     align-items: center;
-    
-    
+
+
 }
 .masthead__menu-and-search:hover{
     background-color: #f7f7f5;
@@ -26,6 +26,9 @@
 .masthead__actions {
     grid-column-start: 3;
     grid-row-start: 1;
+    justify-content: flex-end;
+    display: flex;
+    align-items: center;
 }
 
 .masthead__technologies {
