@@ -29,24 +29,44 @@
     justify-content: flex-end;
     display: flex;
     align-items: center;
+    padding-top: 5px;
 }
 
 .masthead__technologies {
     grid-column-start: 2;
     grid-row-start: 2;
+    text-align: center;
+}
+
+.masthead__technology {
+    margin: 0 4px;
+}
+
+.masthead__technology-list{
+    color: #6f6f6f;
+    font-size: 10px;
+    text-transform: uppercase;
 }
 
 .masthead__date {
     grid-column-start: 1;
     grid-row-start: 3;
+    font-size: 11px;
+    display: flex;
+    align-items: flex-end;
 }
 
 .masthead__logo {
     grid-column-start: 2;
     grid-row-start: 3;
+    text-align: center;
 }
 
 .masthead__paper {
     grid-column-start: 3;
     grid-row-start: 3;
+    font-size: 11px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
 }
