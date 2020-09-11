@@ -2,6 +2,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
+    border-bottom: 1px solid #e2e2e2;
 }
 
 .masthead__menu-and-search {
